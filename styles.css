@@ -1,3 +1,7 @@
+
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +9,8 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
 }
 
 .navbar-expand-lg {
@@ -67,6 +72,8 @@ body {
 
 .card-text{
     color: #556B2F;
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 700;
 }
 
 .card-img-overlay {
@@ -79,6 +86,7 @@ body {
 .card-title{
     color: #101010; 
     margin-bottom: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -88,6 +96,7 @@ body {
 
 .card-preco{
     color: #101010;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .btn{
@@ -99,3 +108,5 @@ body {
 .btn-success:hover{
    background-color: #556B2F;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
