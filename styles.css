@@ -63,9 +63,10 @@ body {
     height: 24px;
 }
 
-.card-img {
-    width: 100%;
-    height: 800px;
+
+
+.card-text{
+    color: #556B2F;
 }
 
 .card-img-overlay {
@@ -80,3 +81,21 @@ body {
     margin-bottom: 10px;
 }
 
+
+.camisetashtml{
+    background-color: #F5DEB3;
+}
+
+.card-preco{
+    color: #101010;
+}
+
+.btn{
+    background-color: #556B2F;
+    border-color: #556B2F;
+    border-radius:20px;
+}
+
+.btn-success:hover{
+   background-color: #556B2F;
+}
