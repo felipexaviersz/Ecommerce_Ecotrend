@@ -97,6 +97,8 @@ body {
 .card-preco{
     color: #101010;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 19px;
 }
 
 .btn{
@@ -108,5 +110,29 @@ body {
 .btn-success:hover{
    background-color: #556B2F;
 }
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+.contatos{
+    background-color: #F5DEB3;
+    font-family: "Nanum Myeongjo", serif;
+}
+
+#titulo_contatos{
+    color: #556B2F;
+}
+
+
+.custom-footer{
+    background-color: #556B2F; 
+}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
